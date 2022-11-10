@@ -1,0 +1,104 @@
+header{
+background-color: #4C0033;
+height: 30vh;
+color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.header__name{
+    font-family: 'Montserrat';
+    font-size: 28px;
+}
+.header__position{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 100;
+}
+main{
+    background-color: aliceblue;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.about{
+background-color: antiquewhite;
+}
+.about__title{
+color: #4C0033;
+font-family: 'Montserrat';
+font-size: 20px;
+}
+.about__paragraph{
+font-family: 'Merriweather';
+font-size: 13px;
+}
+.skills__title{
+background-color: antiquewhite;
+color: #4C0033;
+font-family: 'Montserrat';
+font-size: 20px;
+}
+.skills__container{
+background-color:antiquewhite;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+.skill__img{
+margin: 5%;
+height: 100px;
+}
+.my__projects{
+    color: #4C0033;
+    font-family: 'Montserrat';
+}
+.projects{
+background-color: antiquewhite;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+
+} 
+.project__card-border{
+background-color: #4C0033;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+width: 280px;
+height: 476px;
+margin-top: 20px;
+
+
+}
+.project__card-container{
+background-color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+width: 260px;
+height: 453px;
+}
+.project__title{
+    color: #4C0033;
+    font-family: 'Montserrat';
+
+}
+.project__img{
+
+}
+.project__description{
+    
+    font-family: 'Merriweather';
+    font-size: 13px;
+    width: 237px;
+}
+.project__link{
+
+}   
