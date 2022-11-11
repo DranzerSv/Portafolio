@@ -1,6 +1,7 @@
+/*------------------Header------------------------*/
 header{
 background-color: #4C0033;
-height: 30vh;
+height: 50vh;
 color: #fff;
 display: flex;
 flex-direction: column;
@@ -12,35 +13,57 @@ justify-content: center;
     font-size: 28px;
 }
 .header__position{
-    font-family: 'Montserrat';
+    font-family: 'Merriweather';
     font-size: 18px;
     font-weight: 100;
 }
+@media (min-width:768px) {
+    .header__name{
+        font-size: 50px;
+    }
+    .header__position{
+        font-size: 24px;
+    }
+}
+/*------------------About-----------------------*/
 main{
-    background-color: aliceblue;
+   
     width: 90vw;
-    margin-left: 5vw;
+    max-width: 900px;
+    margin:auto;
 }
 .about{
-background-color: antiquewhite;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
 }
 .about__title{
 color: #4C0033;
 font-family: 'Montserrat';
-font-size: 20px;
+font-size: 24px;
 }
 .about__paragraph{
 font-family: 'Merriweather';
-font-size: 13px;
+font-size: 15px;
+line-height: 25px;
+}
+/*------------------Skills------------------------*/
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .skills__title{
-background-color: antiquewhite;
+
 color: #4C0033;
 font-family: 'Montserrat';
-font-size: 20px;
+font-size: 24px;
 }
 .skills__container{
-background-color:antiquewhite;
+
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -48,15 +71,22 @@ justify-content: space-between;
 align-items: center;
 }
 .skill__img{
-margin: 5%;
+margin-left: 20px;
+margin-right: 20px;    
+margin-top: 15px;
 height: 100px;
 }
+/*------------------Projects------------------------*/
 .my__projects{
     color: #4C0033;
     font-family: 'Montserrat';
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .projects{
-background-color: antiquewhite;
+
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -101,4 +131,55 @@ height: 453px;
 }
 .project__link{
 
+}
+@media (min-width:768px){
+    .projects{
+        
+    }
+}
+/*------------------Contact------------------------*/
+footer{
+margin-top: 40px;    
+background-color: #4C0033;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 40px;
+}
+.contact{
+    
+
+   
+  
 }   
+.contact__title{
+    padding-top: 15px;
+    margin-left: 5%;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+.contact__container{
+margin-top: 20px;    
+   
+color: #fff;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.contact__item{
+    margin-left: 5%;
+    font-size: 13px;
+    font-family: 'Merriweather';
+}
+.contact__link{
+    color: #fff;
+}
+.contact__icon{
+    width: 32px;
+    height: 32px;
+}
+.contact__map{
+    margin-top: 30px;
+}
